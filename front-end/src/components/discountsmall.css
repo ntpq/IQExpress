@@ -1,0 +1,21 @@
+.discount-sm {
+  padding: 5%;
+  margin: 0 !important;
+}
+.img-area {
+  background-color: #f7f7f7;
+  width: 100px;
+
+  padding: 10px;
+  height: 150px;
+}
+.img-area img {
+  width: 80px;
+  height: 130px;
+  object-fit: scale-down;
+}
+.card .name-card {
+  text-align: center;
+  padding: 10%;
+  font-size: 0.7em;
+}

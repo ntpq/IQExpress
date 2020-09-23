@@ -1,0 +1,11 @@
+.big-discount {
+  padding: 5%;
+}
+.big-discount .big-card {
+  background: red;
+}
+.big-discount img {
+  max-width: 80%;
+  /* position: absolute; */
+  /* bottom: 20%; */
+}

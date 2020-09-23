@@ -1,0 +1,15 @@
+Header {
+  background-color: #ffffff !important;
+}
+.logo {
+  /* padding-left: 4em;
+  padding-right: 4em; */
+  flex-grow: 0.5;
+}
+ul {
+  justify-content: space-between;
+  display: flex;
+}
+.text-menu {
+  flex-grow: 1;
+}

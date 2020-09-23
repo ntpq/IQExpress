@@ -1,0 +1,17 @@
+.text-card-col {
+  padding: 1% 5%;
+}
+.border-line {
+  border-right: 2px solid #f2f2f1;
+}
+.head {
+  font-weight: bolder;
+}
+.detail,
+.link {
+  font-size: 0.8em;
+}
+.link {
+  padding: 5% 0;
+  text-decoration: underline;
+}

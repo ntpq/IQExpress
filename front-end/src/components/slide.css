@@ -1,0 +1,68 @@
+.ant-carousel .slick-slide {
+  height: 85vh;
+  line-height: 85vh;
+  overflow: hidden;
+}
+
+.slide-item {
+  position: relative;
+  height: 85vh;
+}
+
+.slide-item-text-box {
+  color: black;
+}
+.item-name {
+  font-size: 80px;
+  position: absolute;
+  left: 10%;
+  top: -10%;
+  animation: slide-right 0.5s linear forwards;
+  /* animation-delay: 1s; */
+}
+.item-color-name {
+  font-size: 80px;
+  position: absolute;
+  left: 20%;
+  top: 5%;
+  animation: slide-right 0.5s linear forwards;
+  /* animation-delay: 1.5s; */
+}
+.item-detail {
+  font-size: 16px;
+  position: absolute;
+  left: 20%;
+  top: 17%;
+  animation: slide-right 0.5s linear forwards;
+  /* animation-delay: 1.7s; */
+  /* opacity: 0; */
+}
+
+@keyframes slide-right {
+  from {
+    left: 0%;
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.item-pic {
+  display: inline !important;
+  position: absolute;
+  bottom: -10%;
+  right: 10px;
+  max-width: 100%;
+  animation: slide-up 0.75s linear;
+  animation-fill-mode: forwards;
+  /* animation-delay: 2s; */
+}
+@keyframes slide-up {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    bottom: 0;
+  }
+}
