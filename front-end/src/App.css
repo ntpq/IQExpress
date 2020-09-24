@@ -1,5 +1,5 @@
 @import "~antd/dist/antd.css";
 .ant-layout-content {
-  padding: 5% 0%;
+  padding: 5% 5%;
   background-color: white;
 }

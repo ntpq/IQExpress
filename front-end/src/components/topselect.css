@@ -1,0 +1,31 @@
+.top-select {
+  background: #f7f7f7;
+  height: 230px;
+  padding: 20px;
+  font-size: 1rem;
+  position: relative;
+}
+.container-img {
+  position: relative;
+  /* width: 100px; */
+  height: 100px;
+}
+.container-img div {
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  /* background-position: center; */
+}
+.top-select .rate {
+  font-size: 0.6rem;
+  color: rgb(0, 132, 255);
+}
+.view-all {
+  position: absolute;
+  color: red;
+  font-size: 0.6rem;
+  text-decoration: underline;
+  right: 20px;
+  top: 20px;
+}

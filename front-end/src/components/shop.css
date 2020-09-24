@@ -1,0 +1,57 @@
+.shop {
+  padding: 2%;
+}
+.container-big {
+  padding-right: 5px;
+  position: relative;
+  height: 230px;
+}
+.container-small {
+  height: 230px;
+}
+.shop-bottom {
+  height: 50px;
+  padding: 2%;
+  align-items: center;
+}
+.picture-big {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container-small {
+  position: relative;
+  height: 73px;
+}
+.picture-small {
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.picture-small.middle {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.container-name-shop.detail {
+  font-size: 0.4rem;
+}
+.container-name-shop {
+  padding-left: 5%;
+}
+.shop .store {
+  font-size: 0.6rem;
+  text-decoration: underline;
+  color: red;
+}
+.shop-logo {
+  border-radius: 50%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container-logo {
+  height: 100%;
+}

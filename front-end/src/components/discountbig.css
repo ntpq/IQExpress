@@ -1,11 +1,53 @@
 .big-discount {
-  padding: 5%;
+  padding: 5% 0;
 }
-.big-discount .big-card {
-  background: red;
+
+.big-card .ant-row {
+  background: #f7f7f7;
+}
+.big-card .ant-row {
+  margin-right: 10px;
+}
+.small-card .ant-row {
+  background: #f7f7f7;
+}
+.small-card.top .ant-row {
+  margin-bottom: 10px;
 }
 .big-discount img {
-  max-width: 80%;
-  /* position: absolute; */
-  /* bottom: 20%; */
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  object-fit: contain;
+}
+.big-card .card-detail {
+  margin: auto;
+  padding: 0 5%;
+}
+.small-card .card-detail {
+  margin: auto;
+  padding: 0 5%;
+}
+.big-card .ant-row {
+  height: 300px;
+}
+.small-card .ant-row {
+  height: 145px;
+}
+.big-card .row {
+  margin: auto;
+}
+.small-card .card-image img {
+  max-height: 145px;
+}
+.card-image {
+  vertical-align: middle;
+}
+.big-discount img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
 }
