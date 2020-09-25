@@ -1,0 +1,14 @@
+.badge-card {
+  text-align: center;
+}
+.badge-card .icon {
+  font-size: 30px;
+  margin: 6%;
+}
+.badge-card .head {
+  font-size: 1rem;
+}
+.badge-card .detail {
+  font-size: 0.7rem;
+  color: gray;
+}

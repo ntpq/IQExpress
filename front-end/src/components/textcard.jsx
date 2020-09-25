@@ -28,7 +28,7 @@ function Textcard() {
     <Row>
       {item.map((data, key) => {
         return item.length - 1 !== key ? (
-          <Col span={8} className="text-card-col border-line">
+          <Col span={8} className="text-card-col ">
             <div className="head">{data.head}</div>
             <div className="detail">{data.detail}</div>
             <div className="link">{data.linkDisplay}</div>

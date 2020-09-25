@@ -5,13 +5,18 @@ import { Layout, Row, Col } from "antd";
 /////// import Components
 import Navbar from "./components/navbar";
 import Slide from "./components/slide";
-import Textcard from "./components/textcard";
+import TextCard from "./components/textcard";
 import DiscountSmall from "./components/discountsmall";
 import DiscountBig from "./components/discountbig";
-import Topselect from "./components/topselect";
+import TopSelect from "./components/topselect";
 import Shop from "./components/shop";
 
-import Flashdeal from "./components/flashdeal";
+import FlashDeal from "./components/flashdeal";
+import RecommendCard from "./components/recommend";
+import BadgeCard from "./components/badge";
+import TopFooter from "./components/topfooter";
+import Payment from "./components/payment";
+import BottomFooter from "./components/bottomfooter";
 const { Content, Footer } = Layout;
 function App() {
   return (
@@ -19,15 +24,15 @@ function App() {
       <Navbar />
       <Slide />
       <Content>
-        <Textcard />
+        <TextCard />
         <DiscountSmall />
         <DiscountBig />
         <Row gutter={8}>
           <Col span={12}>
-            <Topselect topic="Top selection" />
+            <TopSelect topic="Top selection" />
           </Col>
           <Col span={12}>
-            <Topselect topic="New for you" />
+            <TopSelect topic="New for you" />
           </Col>
         </Row>
         <p>Shops for you</p>
@@ -42,10 +47,64 @@ function App() {
             <Shop />
           </Col>
         </Row>
-        <Flashdeal />
+        <div>Flash deal</div>
+        <Row justify="space-between">
+          <Col span={4}>
+            <FlashDeal />
+          </Col>
+          <Col span={4}>
+            <FlashDeal />
+          </Col>
+          <Col span={4}>
+            <FlashDeal />
+          </Col>
+          <Col span={4}>
+            <FlashDeal />
+          </Col>
+          <Col span={4}>
+            <FlashDeal />
+          </Col>
+        </Row>
+        <div>Recommended</div>
+        <Row justify="space-between">
+          <Col span={4}>
+            <RecommendCard />
+          </Col>
+          <Col span={4}>
+            <RecommendCard />
+          </Col>
+          <Col span={4}>
+            <RecommendCard />
+          </Col>
+          <Col span={4}>
+            <RecommendCard />
+          </Col>
+          <Col span={4}>
+            <RecommendCard />
+          </Col>
+        </Row>
+        <Row justify={"space-between"}>
+          <Col span={4}>
+            <BadgeCard />
+          </Col>
+          <Col span={4}>
+            <BadgeCard />
+          </Col>
+          <Col span={4}>
+            <BadgeCard />
+          </Col>
+          <Col span={4}>
+            <BadgeCard />
+          </Col>
+          <Col span={4}>
+            <BadgeCard />
+          </Col>
+        </Row>
       </Content>
-      <Footer style={{ textAlign: "center" }}>
-        Ant Design ©2018 Created by Ant UED
+      <Footer>
+        <TopFooter />
+        <Payment />
+        <BottomFooter />
       </Footer>
     </Layout>
   );

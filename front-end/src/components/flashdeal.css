@@ -1,0 +1,31 @@
+.flash-deal-card .ant-card-meta-title {
+  font-size: 0.8rem;
+  padding: 5% 0;
+}
+.flash-deal-card .price-container {
+  font-size: 0.9rem;
+}
+.flash-deal-card .original-price {
+  color: gray;
+  text-decoration: line-through;
+}
+.flash-deal-card .ant-card-body {
+  padding: 0;
+}
+.bar-container {
+  width: 100%; /* Full width */
+  height: 5px;
+  background-color: #ddd; /* Grey background */
+  border-radius: 10px;
+  margin-bottom: 3%;
+}
+
+.skills {
+  border-radius: 10px;
+  background-color: red;
+  height: 5px;
+}
+.stock-container {
+  color: gray;
+  font-size: 0.5rem;
+}

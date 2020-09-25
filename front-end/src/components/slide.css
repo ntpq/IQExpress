@@ -52,7 +52,7 @@
   position: absolute;
   bottom: -10%;
   right: 10px;
-  max-width: 100%;
+  width: 30rem;
   animation: slide-up 0.75s linear;
   animation-fill-mode: forwards;
   /* animation-delay: 2s; */

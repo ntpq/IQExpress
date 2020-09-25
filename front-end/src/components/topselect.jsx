@@ -29,7 +29,10 @@ function Topselect({ topic }) {
   return (
     <div className="top-select">
       <div>
-        <p className="topic">{topic}</p>
+        <p className="topic">
+          {topic}
+          <span className="view-all">View-all</span>
+        </p>
       </div>
       <Row justify="space-between">
         {item.map((data) => {
@@ -46,7 +49,6 @@ function Topselect({ topic }) {
           );
         })}
       </Row>
-      <span className="view-all">View-all</span>
     </div>
   );
 }

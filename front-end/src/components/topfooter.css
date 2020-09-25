@@ -1,0 +1,30 @@
+.top-footer .list-item {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: gray;
+}
+.top-footer ul {
+  display: block;
+  padding: 10px 0;
+}
+.lang-logo {
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  margin: 0 5%;
+}
+.lang-container {
+  padding-bottom: 20px;
+}
+.container-social > ul {
+  /* display: flex; */
+  list-style: none;
+  font-size: 25px;
+}
+.container-social li {
+  display: inline;
+}
+.container-social li:not(:last-child) {
+  padding-right: 20px;
+}

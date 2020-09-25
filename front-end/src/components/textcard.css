@@ -1,9 +1,7 @@
 .text-card-col {
   padding: 1% 0;
 }
-.border-line {
-  border-right: 2px solid #f2f2f1;
-}
+
 .head {
   font-weight: bolder;
 }

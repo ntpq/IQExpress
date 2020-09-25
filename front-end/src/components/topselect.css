@@ -22,10 +22,11 @@
   color: rgb(0, 132, 255);
 }
 .view-all {
-  position: absolute;
   color: red;
   font-size: 0.6rem;
   text-decoration: underline;
-  right: 20px;
-  top: 20px;
+  float: right;
+}
+.topic {
+  text-align: left;
 }

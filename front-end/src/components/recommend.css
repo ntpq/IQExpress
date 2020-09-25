@@ -1,0 +1,25 @@
+.recommend-card {
+  width: 100%;
+}
+.recommend-card .ant-card-body {
+  padding: 0;
+}
+.shop-name {
+  color: gray;
+  font-size: 0.5rem;
+  text-transform: uppercase;
+}
+.ant-rate-star:not(:last-child) {
+  margin-right: 2px;
+}
+.score {
+  display: table;
+  font-size: 0.8rem;
+}
+.score > * {
+  display: table-cell;
+  vertical-align: middle;
+}
+.recommend-card .ant-card-meta-title {
+  font-size: 0.8rem;
+}
